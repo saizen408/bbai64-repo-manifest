@@ -10,6 +10,7 @@
   <remote name="virt" fetch="git://git.yoctoproject.org/meta-virtualization" />
   
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone" />
+  <project name="openembedded-core" path="sources/openembedded-core" remote="oe-core" revision="kirkstone" />
   <project name="meta-arago" path="sources/meta-arago" remote="arago" revision="kirkstone" />
   <project name="meta-ti" path="sources/meta-ti" remote="ti" revision="kirkstone" />
   <project name="meta-arm" path="sources/meta-arm" remote="arm" revision="kirkstone" />
