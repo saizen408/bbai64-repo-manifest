@@ -5,6 +5,7 @@
   <remote name="qt5" fetch="https://github.com/meta-qt5/"/>
   
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone" />
+  <project name="openembedded-core" path="sources/openembedded-core" remote="oe" revision="kirkstone" />
   <project name="meta-arago" path="sources/meta-arago" remote="yocto" revision="kirkstone" />
   <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="kirkstone" />
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="kirkstone" />
