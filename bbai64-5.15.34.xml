@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="oe" fetch="git://git.openembedded.org/meta-openembedded/" >
-  <remote name="ti" fetch="git://git.yoctoproject.org/meta-ti" />
-  <remote name="arago" fetch="git://git.yoctoproject.org/meta-arago" />
-  <remote name="arm" fetch="git://git.yoctoproject.org/meta-arm" />
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git" />
-  <remote name="qt5" fetch="https://github.com/meta-qt5/meta-qt5.git" />
-  <remote name="virt" fetch="git://git.yoctoproject.org/meta-virtualization" />
+  <remote name="oe" fetch="git://git.openembedded.org/meta-openembedded"/>
+  <remote name="ti" fetch="git://git.yoctoproject.org/meta-ti"/>
+  <remote name="arago" fetch="git://git.yoctoproject.org/meta-arago"/>
+  <remote name="arm" fetch="git://git.yoctoproject.org/meta-arm"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+  <remote name="qt5" fetch="https://github.com/meta-qt5/meta-qt5.git"/>
+  <remote name="virt" fetch="git://git.yoctoproject.org/meta-virtualization"/>
   
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone" />
   <project name="meta-arago" path="sources/meta-arago" remote="arago" revision="kirkstone" />
